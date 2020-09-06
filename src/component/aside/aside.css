@@ -1,0 +1,36 @@
+.profile-image {
+    height: 140px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px var(--primary-1);
+    border: 1px solid var(--primary-1);
+    margin: 20px 0;
+}
+
+aside h2 {
+    font-size: 1.5em;
+}
+
+aside {
+    padding: 15px;
+    color: var(--black);
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.aside-btn.btn {
+    border-radius: 20px;
+    font-size: 13px;
+    display: block;
+    margin: 10px auto;
+}
+
+@media all and (min-width: 950px) {
+    aside {
+        width: 300px;
+        display: inline-block;
+        margin-top: 0;
+    }
+}

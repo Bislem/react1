@@ -1,0 +1,18 @@
+main.container {
+    width: calc(100% - 340px);
+    padding: 30px 50px;
+    margin: 0 10px;
+    float: right;
+    box-shadow: var(--box-shadow);
+}
+
+@media all and (max-width: 950px) {
+    main.container {
+        float: none;
+        width: 100%;
+        max-width: initial;
+        display: block;
+        margin: 40px auto;
+        padding: 30px;
+    }
+}

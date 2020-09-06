@@ -1,0 +1,44 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.shortLinks {
+    list-style: none;
+}
+
+.shortLink {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.103);
+    text-decoration: none;
+}
+
+footer hr {
+    width: 90vw;
+    margin: 20px auto;
+    display: block;
+}
+
+.fab {
+    font-size: 30px;
+    margin: 10px;
+}
+
+footer .logo {
+    margin: 0 0 30px 0;
+}
+
+@media all and (min-width: 900px) {
+    footer {
+        flex-direction: row;
+        width: 100%;
+    }
+    footer>div {
+        width: calc(100% / 3);
+    }
+}
